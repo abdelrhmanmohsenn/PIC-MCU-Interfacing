@@ -116,10 +116,3 @@ int main() {
 ### 📄 Note
 - Make sure to configure the GPIO pins accordingly for the CCP module.
 - Check the datasheet of PIC18F46K20 for specific register details and configurations.
-
-### 📚 Resources
-- [PIC18F46K20 Datasheet](https://www.microchip.com/wwwproducts/en/PIC18F46K20)
-- [CCP Module Overview](https://microcontrollerslab.com/complete-tutorial-ccp-module-pic18f-timers-ccp-module/)
-- [PIC Microcontroller Interrupts Tutorial](https://electrosome.com/pic-microcontroller-interrupts-tutorial/)
-
-Feel free to reach out if you have any questions or need further assistance! 🚀
