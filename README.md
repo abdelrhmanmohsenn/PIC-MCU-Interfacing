@@ -66,7 +66,6 @@ void main(void){
 
 void application_initialize(void){
 	
-  Std_ReturnType ret = E_NOT_OK;
   led_t led1 = {.port = PORTC_INDEX, .pin = PIN0, .led_status = PIN_LOW};
 }
 ```
