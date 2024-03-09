@@ -9,8 +9,7 @@
 #define	MCAL_STD_TYPES_H
 
 /******* section : Includes *******/
-#include "compiler.h"
-#include "std_libraries.h"
+#include "xc.h"
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
