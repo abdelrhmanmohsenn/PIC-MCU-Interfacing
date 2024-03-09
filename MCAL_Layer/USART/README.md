@@ -1,5 +1,3 @@
-Certainly! Here's a README file for the UART driver for the PIC18F46K20:
-
 ### 🔧 PIC18F46K20 UART Driver
 
 This repository contains a UART (Universal Asynchronous Receiver-Transmitter) driver for the PIC18F46K20 microcontroller. The driver provides APIs to easily configure and use the UART module for asynchronous serial communication.
