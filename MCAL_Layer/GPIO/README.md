@@ -55,7 +55,6 @@ This repository contains a GPIO (General Purpose Input/Output) driver for the PI
 3. Write to a GPIO pin:
     
     ```c
-    cCopy code
     // Write logic low to the pin
     gpio_pin_write(&pinConfig, PIN_LOW);
     ```
@@ -63,7 +62,6 @@ This repository contains a GPIO (General Purpose Input/Output) driver for the PI
 4. Read from a GPIO pin:
     
     ```c
-    cCopy code
     logic_t pinLogic;
     gpio_pin_read(&pinConfig, &pinLogic);
     
@@ -77,7 +75,6 @@ This repository contains a GPIO (General Purpose Input/Output) driver for the PI
 5. Toggle a GPIO pin:
     
     ```c
-    cCopy code
     gpio_pin_toggle(&pinConfig);
     ```
     
@@ -87,7 +84,6 @@ This repository contains a GPIO (General Purpose Input/Output) driver for the PI
 In **`gpio_config.h`**, you can enable or disable GPIO port/pin configurations:
 
 ```c
-cCopy code
 #define GPIO_PORT_PIN_CONFIGRATIONS   CONFIG_ENABLE
 ```
 
@@ -103,7 +99,6 @@ Setting **`CONFIG_ENABLE`** will enable port/pin configurations, while **`CONFIG
 Here's an example of how to use the GPIO driver to control an LED connected to Pin 0 of Port A:
 
 ```c
-cCopy code
 #include "hal_gpio.h"int main() {
     // Define LED pin configuration
     pin_config_t ledPin = {
