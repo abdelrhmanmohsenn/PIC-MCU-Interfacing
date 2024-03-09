@@ -11,7 +11,6 @@ The Microcontroller Abstraction Layer (MCAL) provides low-level interface driver
 - GPIO (General Purpose Input/Output)
 - ADC (Analog-to-Digital Converter)
 - CCP (Capture/Compare/PWM)
-- EEPROM (Electrically Erasable Programmable Read-Only Memory)
 - I2C (Inter-Integrated Circuit)
 - Interrupt
 - SPI (Serial Peripheral Interface)
