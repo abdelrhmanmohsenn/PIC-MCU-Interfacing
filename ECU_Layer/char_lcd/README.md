@@ -50,11 +50,7 @@ This file contains the implementation of the Char LCD driver functions.
 ### 🚀 How to Use
 
 1. **Clone the Repository**:
-   - Clone this repository to your local machine:
-
-     ```sh
-     git clone https://github.com/yourusername/char-lcd-driver-pic18f46k20.git
-     ```
+   - Clone this repository to your local machine
 
 2. **Include in Your Project**:
    - Include the following files in your project:
@@ -124,11 +120,3 @@ This file contains the implementation of the Char LCD driver functions.
 
 ### 📝 Notes
 - Make sure to adjust the LCD pin configurations in `ecu_char_lcd.h` and your hardware setup.
-- Refer to the datasheet of your specific LCD for the commands and timings.
-- Feel free to reach out with any questions or issues! 🚀
-
-### 📚 References
-- [PIC18F46K20 Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/39916f.pdf)
-- [16x2 Character LCD Datasheet](https://www.sparkfun.com/datasheets/LCD/GDM1602K.pdf)
-
-Happy coding! 💻✨
