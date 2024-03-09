@@ -8,10 +8,10 @@ This is a simple SPI (Serial Peripheral Interface) driver for PIC18F46K20 microc
 - `hal_spi.h`: Header file defining the SPI driver interface, macros, and data types.
 
 ### 🚀 Features
-Initialization and deinitialization of SPI.
-Blocking and non-blocking modes for transmit and receive operations.
-Configurable SPI clock and sampling modes.
-Support for interrupt handling (optional).
+- Initialization and deinitialization of SPI.
+- Blocking and non-blocking modes for transmit and receive operations.
+- Configurable SPI clock and sampling modes.
+- Support for interrupt handling (optional).
 
 ### 🚀 Getting Started
 
