@@ -84,10 +84,6 @@ This file contains the implementation of the Char LCD driver functions.
        - `lcd_8bit_send_custom_char(&lcd_8bit_config, row, column, chr[], mem_pos)`: Send a custom character to a specific position on the LCD.
 
 6. **Example**:
-   - Here's a simple
-
- example of using the LCD driver:
-
      ```c
      #include "ecu_char_lcd.h"
 
