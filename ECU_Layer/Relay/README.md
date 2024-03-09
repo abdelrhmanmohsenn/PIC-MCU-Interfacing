@@ -56,10 +56,6 @@ This file contains the implementation of the Relay driver functions.
      - `relay_turn_on(&relay_config)`: Turns on the Relay.
      - `relay_turn_off(&relay_config)`: Turns off the Relay.
 
-### 📄 Documentation
-- Detailed descriptions and usage guidelines can be found in the comments within the header and source files.
-- Feel free to modify the code as needed for your specific project requirements.
-
 ### 🌟 Example
 Here's a simple example to demonstrate how to use the Relay driver:
 
@@ -90,17 +86,3 @@ int main() {
     return 0;
 }
 ```
-
-### 📚 Resources
-- [PIC18F46K20 Datasheet](https://www.microchip.com/wwwproducts/en/PIC18F46K20)
-
-### 📧 Contact
-For any questions or suggestions, feel free to reach out:
-- Email: your.email@example.com
-- GitHub: [YourGitHubUsername](https://github.com/yourusername)
-
-### 🌟 Contribution
-Contributions and improvements are welcome! If you find any issues or want to add new features, please fork the repository and submit a pull request.
-
-### 📜 License
-This project is licensed under the [MIT License](LICENSE).
