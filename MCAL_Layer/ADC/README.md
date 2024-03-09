@@ -1,7 +1,5 @@
 # 🌟 PIC18F46K20 ADC Driver 
 
-![PIC18F46K20 ADC Driver](https://github.com/your-username/your-repository/blob/main/pic18f46k20_adc.jpg)
-
 This repository contains an ADC (Analog-to-Digital Converter) driver for the PIC18F46K20 microcontroller. The ADC driver provides APIs to initialize and use the ADC module for analog voltage conversions.
 
 ## 📁 Files
