@@ -99,7 +99,8 @@ Setting **`CONFIG_ENABLE`** will enable port/pin configurations, while **`CONFIG
 Here's an example of how to use the GPIO driver to control an LED connected to Pin 0 of Port A:
 
 ```c
-#include "hal_gpio.h"int main() {
+#include "hal_gpio.h"
+int main() {
     // Define LED pin configuration
     pin_config_t ledPin = {
         .port = PORTA_INDEX,
